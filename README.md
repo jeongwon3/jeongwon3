@@ -62,6 +62,6 @@ ROS에서 카메라 검출 결과와 LiDAR 클러스터를 정합하는 모듈�
 
 ## 🎓 Education & Activities
 
-- **가천대학교 인공지능학과** · 2027년 2월 졸업 예정 · 스마트카 마이크로디그리 이수
+- **가천대학교 인공지능학과** · 2027년 2월 졸업 예정 
 - **현대자동차·현대엔지비 H-모빌리티 클래스** · 자율주행 인지 트랙, 2026
 - **가천대학교 Physical AI Research Camp** · Jetson Orin Nano 환경 구축, YOLOv11 및 nanoOWL 실습, 2025
