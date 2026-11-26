@@ -39,7 +39,7 @@ ROS에서 카메라 검출 결과와 LiDAR 클러스터를 정합하는 모듈�
 
 ## 🚀 Projects
 
-| 프로젝트 | 내가 한 일 | 기술 |
+| 프로젝트 | Description | 기술 |
 | --- | --- | --- |
 | **[FlashOCC for CARLA](https://github.com/jeongwon3/FlashOcc)** | 4대 카메라 영상으로 3D 의미 점유를 예측하도록 FlashOCC를 CARLA에 적용했습니다. 깊이 보조 손실과 클래스 가중치를 비교하고, 광선의 첫 점유 위치를 분석해 실제 물체 앞에 나타나는 오검출을 확인했습니다. | PyTorch, FlashOCC, CARLA |
 | **CARLA Asset-based Occupancy GT** | CARLA 지도 4종과 차량 메시 23종을 확보했습니다. 녹화 프레임의 차량 ID와 자세로 차량을 배치하고, 지도와 차량을 자차 좌표계에 정렬한 뒤 메시 표면을 복셀화했습니다. 센서 시야에서 가려진 곳도 에셋이 배치된 영역의 점유 표면을 생성할 수 있습니다. | CARLA 0.9.16, GLB/glTF, Python, C++ |
