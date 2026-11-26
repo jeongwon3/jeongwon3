@@ -28,6 +28,7 @@ ROS에서 카메라 검출 결과와 LiDAR 클러스터를 정합하는 모듈�
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 
 ### Deep Learning & Vision
 
@@ -43,6 +44,7 @@ ROS에서 카메라 검출 결과와 LiDAR 클러스터를 정합하는 모듈�
 ![ROS 1](https://img.shields.io/badge/ROS%201-22314E?style=flat&logo=ros&logoColor=white)
 ![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat&logo=ros&logoColor=white)
 ![CARLA](https://img.shields.io/badge/CARLA-0891B2?style=flat)
+![MORAI](https://img.shields.io/badge/MORAI-00599C?style=flat)
 ![Cartographer](https://img.shields.io/badge/Cartographer-0F766E?style=flat)
 
 ### Edge Inference
@@ -55,8 +57,12 @@ ROS에서 카메라 검출 결과와 LiDAR 클러스터를 정합하는 모듈�
 ### Development Environment & Tools
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat)
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
 
 ## 💼 Experience
 
