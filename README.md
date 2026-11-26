@@ -23,13 +23,40 @@ ROS에서 카메라 검출 결과와 LiDAR 클러스터를 정합하는 모듈�
 
 ## 🛠️ Tech Stack
 
-| 분야 | 기술 |
-| --- | --- |
-| Programming | Python, C, C++ |
-| Deep Learning & Vision | PyTorch, MMDetection, YOLO/YOLOX, DETR/RT-DETR |
-| Robotics & Simulation | ROS 1, ROS 2, CARLA, Cartographer |
-| Edge Inference | NVIDIA Jetson Orin, TensorRT, ONNX Runtime, CUDA |
-| Development | Ubuntu, Docker, Git |
+### Programming Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
+
+### Deep Learning & Vision
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![MMDetection](https://img.shields.io/badge/MMDetection-2563EB?style=flat)
+![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat)
+![YOLOX](https://img.shields.io/badge/YOLOX-111F68?style=flat)
+![DETR](https://img.shields.io/badge/DETR-4338CA?style=flat)
+![RT-DETR](https://img.shields.io/badge/RT--DETR-4338CA?style=flat)
+
+### Robotics & Simulation
+
+![ROS 1](https://img.shields.io/badge/ROS%201-22314E?style=flat&logo=ros&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat&logo=ros&logoColor=white)
+![CARLA](https://img.shields.io/badge/CARLA-0891B2?style=flat)
+![Cartographer](https://img.shields.io/badge/Cartographer-0F766E?style=flat)
+
+### Edge Inference
+
+![NVIDIA Jetson Orin](https://img.shields.io/badge/NVIDIA%20Jetson%20Orin-76B900?style=flat&logo=nvidia&logoColor=black)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=black)
+![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat&logo=onnx&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=black)
+
+### Development Environment & Tools
+
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 ## 💼 Experience
 
