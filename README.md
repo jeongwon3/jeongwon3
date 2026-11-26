@@ -81,6 +81,8 @@ ROS에서 카메라 검출 결과와 LiDAR 클러스터를 정합하는 모듈�
 | **[FlashOCC for CARLA](https://github.com/jeongwon3/FlashOcc)** | 4대 카메라 영상으로 3D 의미 점유를 예측하도록 FlashOCC를 CARLA에 적용했습니다. 깊이 보조 손실과 클래스 가중치를 비교하고, 광선의 첫 점유 위치를 분석해 실제 물체 앞에 나타나는 오검출을 확인했습니다. | PyTorch, FlashOCC, CARLA |
 | **CARLA Asset-based Occupancy GT** | CARLA 지도 4종과 차량 메시 23종을 확보했습니다. 녹화 프레임의 차량 ID와 자세로 차량을 배치하고, 지도와 차량을 자차 좌표계에 정렬한 뒤 메시 표면을 복셀화했습니다. 센서 시야에서 가려진 곳도 에셋이 배치된 영역의 점유 표면을 생성할 수 있습니다. | CARLA 0.9.16, GLB/glTF, Python, C++ |
 | **보행자 신호등 검출 성능 개선** | 보행자 신호등 검출 성능을 높이기 위해 학습 데이터 구성과 검출 모델을 비교·평가했습니다. Jetson Orin에서 모델별 검출 정확도(mAP·Precision·Recall)와 추론 성능(FPS·P99 지연 시간)을 동일한 조건으로 측정하는 벤치마크를 개발했습니다. | YOLOX, MMDetection, Jetson Orin, TensorRT, ONNX Runtime |
+| **자율주행 포뮬러 경로 계획** | 2025 자율주행 포뮬러 경진대회에서 차량 판단부의 경로 계획 코드를 C++로 새로 작성했습니다. 1랩에는 실시간으로 인식한 라바콘을 바탕으로 여러 지역 경로를 생성하고, 트랙 중심 이탈·콘과의 거리·이전 경로와의 일관성을 반영한 비용 함수로 경로를 선택했습니다. 루프 클로저 이후에는 라바콘 지도에서 제약 델로네 삼각분할과 A* 탐색으로 전역 경로를 생성하도록 구성했습니다. | C++, ROS, Quintic Polynomial, Catmull–Rom Spline, CDT, A* |
+| **AI 기반 실시간 위험 감지 및 자율 순찰 시스템 (졸업작품)** | Cartographer로 테스트 공간의 2D 점유 지도를 생성했습니다. 한 로봇에서 만든 지도를 다른 로봇으로 이식해 자율 순찰을 검증할 수 있는 ROS 테스트 환경을 구축했습니다. | ROS, Cartographer, LiDAR |
 | **LiDAR–Camera Fusion Object Selection** | YOLO 검출 박스와 LiDAR 클러스터를 연결하는 좌표 변환·투영·매칭 로직을 설계했습니다. 거리 필터링을 적용하고 독립 ROS 노드로 통합했습니다. | ROS, YOLO, LiDAR |
 | **Collaborative SLAM Map Merging** | LIMO 로봇과 Cartographer로 실내 구역별 2D 점유 지도를 생성했습니다. 지도 간 특징점을 매칭해 회전과 이동을 추정하고, 로컬 맵을 하나의 전역 지도로 병합했습니다. | LIMO, Cartographer, ROS |
 
