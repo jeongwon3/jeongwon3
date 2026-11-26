@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0F172A,55:1D4ED8,100:0891B2&amp;height=190&amp;text=Jeongwon%20Park&amp;desc=Autonomous%20Driving%20Perception&amp;fontColor=FFFFFF&amp;fontSize=46&amp;fontAlignY=33&amp;descAlignY=55&amp;descSize=17" alt="Jeongwon Park · Autonomous Driving Perception" />
+</div>
+
 # 박정원 · Jeongwon Park
 
 **Autonomous Driving Perception · 3D Occupancy · Embedded AI**
